@@ -13,6 +13,10 @@
     background-position: center;
 
 }
+.common{
+    display: none;
+}
+
 .navbar{
     /* width: 100%; */
     margin:auto;
