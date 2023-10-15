@@ -128,7 +128,7 @@ button{
     width:180px;
     padding:18px 0;
     text-align: center;
-    margin: 80px 550px;
+    margin: auto;
     border-radius: 50px;
     background: transparent;
     background-color: #f6c5b9;
@@ -136,6 +136,72 @@ button{
     cursor: pointer;
     font-weight: bold;
     font-size: 20px;
+    display: block;
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .navLeft > a{
+        font-size: 18px;
+
+    }
+
+    
+    .navbar > .navLeft{
+        width: 90%;
+    
+
+
+
+       
+    }
+
+
+    .cardParent{
+        width: 97%;
+       
+        
+    
+    }
+
+   
+
+}
+
+
+@media only screen and (max-width: 767px){
+
+
+   
+
+    
+    .navbar > .navLeft{
+        /* width: 90%; */
+        display: none;
+
+       
+    
+
+
+
+       
+    }
+
+
+    .cardParent{
+        flex-wrap: wrap;
+        gap:30px;
+       
+        
+    
+    }
+
+    .navRight{
+        width:100%;
+        justify-content: space-between;
+    
+    
+    
+    }
 
 }
 
